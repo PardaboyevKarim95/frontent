@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ticher</title>
+  
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <div class="container flex">
+    <div class="home_wrapper-left">
+      <div class="home_crm-wrapper crm">
+        <img class="crm_icon-left" src="./images/crm.svg" width="30" height="32" alt="crm">
+        <span class="crm_span">CRM <br>PANEL</span>
+        <img class="crm_icon-right" src="./images/menu-toggle.svg" alt="crm">
+
+      </div>
+      <ul class="home_list list">
+        <li class="list_item-Xisoblar">Xisoblar</li>
+        <li class="list_item-Oquvchilar">O'quvchilar</li>
+        <li class="list_item-Gruhlar">Gruhlar</li>
+        <li class="list_item-Oqtuvchilar">O'qtuvchilar</li>
+        <li class="list_item-Fanlar">Fanlar</li>
+      </ul>
+    </div>
+    <div class="home_flexwrap">
+
+      <!-- Yangi o'qtuvchi qoshish html ko'dlari -->
+
+
+      <div class="sciences">
+        <h2 class="sciences_Fanlar">o'qtuvchilar</h2>
+        <div class="sciences_wrapper add">
+          <h3 class="add_title">Yangi o'qtuvchi qo'shish</h3>
+          <form class="add_form ">
+            <div class="add_min-wrapper">
+              <p class="add_text">O'qtuvchi ismi</p>
+              <input class="add_inp inp-ticher-name" type="text" name="your_name" placeholder="O'qtuvchi ismi">
+            </div>
+            <div class="add_min-wrapper">
+              <p class="add_text">Telefon raqam</p>
+              <input class="add_inp inp-tel" type="tel" name="your_name" placeholder="Telefon raqam">
+            </div>
+      
+            <div class="add_min-wrapper">
+              <p class="add_text">Yo'nalish</p>
+              <select class="add_inp select">
+                
+              </select>
+            </div>
+      
+            <div class="add_min-wrapper">
+              <p class="add_text">Yoshi</p>
+              <input class="add_inp inp-number" type="number" name="your_name" placeholder="Yoshi">
+            </div>
+      
+            <div class="add_min-wrapper">
+              <p class="add_text">rasm</p>
+              <input class="add_inp inp-img" type="file" name="your_name" placeholder=" rasm kiriting">
+            </div>
+      
+            <div class="add_min-wrapper">
+              <p class="add_text">O'qtuvchi familyasi</p>
+              <input class="add_inp inp-last-name" type="text" name="your_name" placeholder="O'qtuvchi familyasi">
+            </div>
+            <button type="submit" class="add_btn btnn">Qo'shish</button>
+            <div class="madal">
+              <div class="form-madal">
+                <input class="madal-first-name" type="text" name="first_name" placeholder="first-name">
+                <input class="madal-last-name" type="text" name="last_name" placeholder="last-name">
+                <input class="madal-age" type="number" name="age" placeholder="age">
+                <input class="madal-tel" type="tel" name="tel" placeholder="tel">
+                <input class="madal-avatar" type="file" name="first_avatar" placeholder="avatar">
+                <button class="btn-next" type="submit">Next</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      
+      
+        <div class="sciences_wrpper-end end">
+          <div class="wrapper_sorch">
+            <h3 class="end_title">Bizning o'qtuvchilar</h3>
+            
+            <label class="search-label">
+              <input class="search_inp" type="text" name="search" >
+              <img src="./images/search-img.svg" alt="">
+            </label>
+          </div>
+          <div class="end_top-item">
+            <span class="end_top-item-span">№</span>
+            <p class="end_oqtuvchi">o'qtuvchi ismi</p>
+            <p class="end_tel">Telefon nomer</p>
+            <p class="end_yonalish">Yo'nalish</p>
+            <p class="end_yish">Yoshi</p>
+          </div>
+          <ul class="end_list">
+           
+          </ul>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+
+<script src="./js/api.js"></script>
+<script src="./js/ticher.js"></script>
+</body>
+
+</html>

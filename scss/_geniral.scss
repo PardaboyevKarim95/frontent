@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #F0F2FA;
+  margin: 0;
+  font-family: "inter";
+  font-weight: 500;
+}
+
+img {
+  display: block;
+ 
+}
+.container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}

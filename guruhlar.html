@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>guruhlar</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  
+  <div class="container flex">
+    <div class="home_wrapper-left">
+      <div class="home_crm-wrapper crm">
+        <img class="crm_icon-left" src="./images/crm.svg" width="30" height="32" alt="crm">
+        <span class="crm_span">CRM <br>PANEL</span>
+        <img class="crm_icon-right" src="./images/menu-toggle.svg" alt="crm">
+        
+      </div>
+      <ul class="home_list list">
+        <li class="list_item-Xisoblar">Xisoblar</li>
+        <li class="list_item-Oquvchilar">O'quvchilar</li>
+        <li class="list_item-Gruhlar">Gruhlar</li>
+        <li class="list_item-Oqtuvchilar">O'qtuvchilar</li>
+        <li class="list_item-Fanlar">Fanlar</li>
+      </ul>
+    </div>
+    <div class="home_flexwrap">
+      
+      <!-- Yangi o'qtuvchi qoshish html ko'dlari -->
+      
+      
+      <div class="sciences">
+        <h2 class="sciences_Fanlar">Guruhlar</h2>
+        <div class="sciences_wrapper add">
+          <h3 class="add_title">Yangi guruh qo'shish</h3>
+          <form class="add_form ">
+            <div class="add_min-wrapper">
+              <p class="add_text">Guruh yo'nalishi</p>
+              <select class="add_inp guruh_select">
+
+              </select>
+            </div>
+            <div class="add_min-wrapper">
+              <p class="add_text">Dars kunlari</p>
+            <select class="add_inp dars_kuni_select">
+            </select>
+            </div>
+            
+            <div class="add_min-wrapper">
+              <p class="add_text">Dars boshlash vaqti</p>
+              <input class="add_inp group_time_start" type="time" name="your_name" >
+            </div>
+            
+            <div class="add_min-wrapper">
+              <p class="add_text">O'qtuvchi</p>
+              <select class="add_inp ticher">
+              </select>
+            </div>
+            
+            <div class="add_min-wrapper">
+              <p class="add_text">Dars tugash vaqti</p>
+              <input class="add_inp group_time_stop" type="time" name="your_name" >
+            </div>
+            
+            <div class="add_min-wrapper">
+              <p class="add_text">Guruh nami</p>
+              <input class="add_inp group_name" type="text" name="your_name" >
+            </div>
+            <button type="submit" class="add_btn btnn">Qo'shish</button>
+            <div class="madal ">
+            <div class="form-madal ">
+                <select class="add_inp madal_guruh_select">
+                </select>
+                <select class="add_inp madal_dars_kuni_select">
+                </select>
+                <select class="add_inp madal_ticher">
+                </select>
+                <input class="add_inp madal_group_name" type="text" name="your_name" placeholder="Guruh">
+                <input class="add_inp madal_group_time_start" type="time" name="your_name">
+                <input class="add_inp madal_group_time_stop" type="time" name="your_name" >
+              
+              <button type="submit" class="add_btn btnn">next</button>
+            </div>
+            </div>
+          </form>
+        </div>
+        
+       
+        <div class="sciences_wrpper-end gruh">
+          <h3 class="end_title gruh_top-title">Mavjut guruhlar</h3>
+          <div class="druh-js">
+           
+            
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./js/api.js"></script>
+  
+  <script  src="./js/guruhlar.js"></script>
+</body>
+
+</html>

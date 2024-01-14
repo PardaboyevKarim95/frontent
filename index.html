@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <h1 class="visually-hidden">crm</h1>
+    <nav class="visually-hidden"></nav>
+  </header>
+  <section class="home">
+    <!-- SRM PANEL html kodlari -->
+    
+    <div class="container flex">
+      <div class="home_wrapper-left">
+        <div class="home_crm-wrapper crm">
+          <img class="crm_icon-left" src="./images/crm.svg" width="30" height="32" alt="crm">
+          <span class="crm_span">CRM <br>PANEL</span>
+          <img class="crm_icon-right" src="./images/menu-toggle.svg" alt="crm">
+          
+        </div>
+        <ul class="home_list list">
+          <li class="list_item-Xisoblar">Xisoblar</li>
+          <li class="list_item-Oquvchilar">O'quvchilar</li>
+          <li class="list_item-Gruhlar">Gruhlar</li>
+          <li class="list_item-Oqtuvchilar">O'qtuvchilar</li>
+          <li class="list_item-Fanlar">Fanlar</li>
+        </ul>
+      </div>
+      <div class="home_flexwrap">
+
+        <!-- Yangi fan qoshish html ko'dlari -->
+
+      <div class="home_wrapper-right report">
+          <h2 class="report_title">Xisobot</h2>
+          <ul class="report_list">
+            <li class="report_item">
+              <p class="report_text">Jami o'quvchilar soni:</p>
+              <span class="report_student-span"></span>
+            </li>
+            <li class="report_item">
+              <p class="report_text">Jami o'qtuvchilar soni:</p>
+              <span class="report_ticher-span"></span>
+            </li>
+            <li class="report_item">
+              <p class="report_text">Jami fanlar soni:</p>
+              <span class="report_fanlar-span"></span>
+            </li>
+            <li class="report_item">
+              <p class="report_text">Jami guruhlar soni:</p>
+              <span class="report_gruhlar-span"></span>
+            </li>
+          </ul>
+        </div> 
+       
+        <!-- Yangi o'qtuvchi qoshish html ko'dlari -->
+        
+      </div>
+     
+    </div>
+  </section>
+  
+  
+  
+  <script src="./js/api.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,494 @@
+
+
+.add {
+  margin: 32px 80px;
+}
+.home_flexwrap {
+  width: 100%;
+}
+.sciences_Fanlar {
+  color: #0061F7;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 32px;
+    line-height: normal;
+    letter-spacing: 0.36px;
+  background-color: #fff;
+}
+.add_title {
+  color: #0061F7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 32px;
+}
+.add_form {
+  display: flex;
+  align-items: end;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+
+.add_min-wrapper {
+  width: 320px;
+  height: 100px;
+}
+
+.add_text {
+  color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+
+
+.add_inp{
+  display: block;
+  width: 320px;
+  margin-bottom: 0;
+  border-radius: 8px;
+    border: 1px solid rgba(47, 73, 209, 0.60);
+    background: #FFF;
+      font-size: 18px;
+      padding: 13px 12px;
+      
+}
+
+.add_btn{
+  display: block;
+max-width: 314px;
+width: 100%;
+border-radius: 8px;
+background: #2F49D1;
+color: #FFF;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  padding: 13px;
+}
+
+
+
+
+
+.end_title {
+   color: #0061F7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-bottom: 35px;
+    margin-left: 80px;
+}
+
+.end_list {
+  padding: 0;
+  list-style: none;
+  background: #FFF;
+  height: 500px;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow-y: scroll;
+}
+
+.end_item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.end_id {
+  font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.end_fan { 
+    letter-spacing: -0.16px;
+    margin: 0;
+}
+
+.end_btn-edit {
+    position: relative;
+      z-index: 12;
+    
+  margin-left: auto;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.end_btn-delete {
+  position: relative;
+  z-index: 12;
+  border: 0;
+    cursor: pointer;
+}
+.end_btn-edit::before {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  background-image: url("../../images/Edit.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.end_btn-delete::before {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background-image: url("../../images/delete.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.end_top-item {
+  display: flex;
+  color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #2F49D1;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.end_top-item-span {
+  display: inline-block;
+  margin-right: 50px;
+}
+.btnn {
+  margin-left: auto;
+}
+.select {
+  padding: 16px;
+}
+
+.end_top-item-span {
+  width: 10px;
+}
+
+.end_oqtuvchi {
+width: 180px;
+
+}
+
+.end_tel {
+  width: 130px;
+  margin-left: 40px;
+}
+
+.end_yonalish {
+  width: 95px;
+  margin-left: 60px;
+}
+
+.end_yish {
+  width: 50px;
+  margin-left: 50px;
+}
+
+
+
+.end_id {
+  width: 10px;
+}
+.btn {
+  margin-left: auto;
+}
+
+.end_ota-onasi {
+  width: 160px;
+margin-left: 30px;
+}
+
+.end_ota-onasi-tel {
+
+margin-left: 30px;
+}
+
+
+
+.gruh_wrapper {
+  width: 320px;
+  border-radius: 16px;
+    background: #FFF;
+  
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20);
+}
+.wrapper-p {
+padding: 12px;
+}
+.gruh_title {
+  color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 18px 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    border-radius: 16px 16px 0px 0px;
+      background: #2F49D1;
+}
+
+.gruh_img-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.grup_img-min-wrapper {
+  margin-left: 12px;
+}
+
+.ticher {
+  color: #001062;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-bottom: 13px;
+   
+}
+
+.drup_ticher-span {
+  
+  margin-left: 10px;
+  color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.tel {
+  color: #001062;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.46px;
+    margin-bottom: 13px;
+   
+}
+.gruh {
+  margin-left: 79px;
+  margin-right: 79px;
+}
+.tel-span {
+
+ 
+  color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
+
+.dars-kuni {
+  display: flex;
+    justify-content: space-between;
+  color: #001062;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.gruh_top-title {
+  margin-left: 0;
+  margin-top: 50px;
+}
+.dars-kunlari-span {
+  display: inline-block;
+  margin-left: auto;
+    color: #000;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.14px;
+}
+
+.dars-vaqti {
+  display: flex;
+    justify-content: space-between;
+  color: #001062;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-bottom: 12px;
+}
+.dars-vaqti-span {
+  
+  color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.oqtuvchilar-soni {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #001062;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.oqtuvchilar-soni-span {
+  display: inline-block;
+    margin-left: auto;
+    color: #000;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.14px;
+}
+.druh-js {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.madal {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  min-height: 2000px;
+  height: 100%;
+  background: #00000087;
+  display: none;
+}
+
+.form-madal {
+  max-width: 700px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #001062;
+  background-color: #292323;
+  padding: 20px;
+  margin: 0 auto;
+}
+.form-madal input {
+  display: block;
+width: 100%;
+padding: 12px 24px;
+border-radius: 10px;
+  border: 1px solid #5a69b3;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.form-madal select {
+display: block;
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 10px;
+  // border: 1px solid #5a69b3;
+  background: #fff;
+  margin-bottom: 20px
+}
+.form-madal button {
+  display: block;
+  margin-left: auto;
+padding: 12px 24px;
+border-radius: 10px;
+color: #fff;
+  background: #0061F7;
+ 
+}
+.error {
+    display: block;
+      width: 100%;
+      padding: 12px 24px;
+      border-radius: 10px;
+      border: 1px solid #ed1010;
+      background: #fff;
+      
+      color: #ed1010;
+}
+.wrapper_sorch {
+  position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.search-label {
+  position: relative;
+  margin-right: 80px;
+}
+.search-label img {
+ position: absolute;
+ top: 13px;
+ right: 13px;
+ z-index: 0;
+ opacity: 0.5;
+} 
+.search_inp {
+ display: inline-block;
+  width: 340px;
+border-radius: 16px;
+  background: #FFF;
+padding: 8px 16px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.20);
+  font-size: 18px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-weight: 500;
+    line-height: 34px;
+}
+.btn_edit {
+  display: inline-block;
+  width: 40%;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #0061F7;
+  background: #5a69b3;
+  color: #fff;
+    font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.14px;
+      margin-right: 53px;
+}
+
+.btn_delete {
+    display: inline-block;
+      width: 40%;
+      padding: 8px;
+      border-radius: 10px;
+      border: 1px solid #e51818;
+      background: #e51818;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.14px;
+}
+
+.gruh_img-wrapper img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+

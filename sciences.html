@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fanlar</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  
+  <div class="container flex">
+    <div class="home_wrapper-left">
+      <div class="home_crm-wrapper crm">
+        <img class="crm_icon-left" src="./images/crm.svg" width="30" height="32" alt="crm">
+        <span class="crm_span">CRM <br>PANEL</span>
+        <img class="crm_icon-right" src="./images/menu-toggle.svg" alt="crm">
+        
+      </div>
+      <ul class="home_list list">
+        <li class="list_item-Xisoblar">Xisoblar</li>
+        <li class="list_item-Oquvchilar">O'quvchilar</li>
+        <li class="list_item-Gruhlar">Gruhlar</li>
+        <li class="list_item-Oqtuvchilar">O'qtuvchilar</li>
+        <li class="list_item-Fanlar">Fanlar</li>
+      </ul>
+    </div>
+    <div class="home_flexwrap">
+      
+      <!-- Yangi fan qoshish html ko'dlari -->
+      
+      
+      <div class="sciences">
+        <h2 class="sciences_Fanlar">Fanlar</h2>
+        <div class="sciences_wrapper add">
+          <h3 class="add_title">Yangi fan qo'shish</h3>
+          <form class="add_form  ">
+            <div class="add_min-wrapper">
+              <p class="add_text">Fan nomi</p>
+              <input class="add_inp" type="text" name="your_name" placeholder="Fan nami">
+            </div>
+            <button type="submit" class="add_btn btn">Qo'shish</button>
+          </form>
+        </div>
+        <div class="sciences_wrpper-end end">
+          <h3 class="end_title">Barcha fanlar</h3>
+          <div class="end_top-item"><span class="end_top-item-span">№</span>Fon nomi</div>
+          <ul class="end_list">
+           
+          </ul>
+        </div>
+      </div> 
+    </div>
+    
+  <script src="./js/api.js"></script>
+    
+    <script src="./js/sciences.js"></script>
+  </body>
+  </html>

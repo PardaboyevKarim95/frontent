@@ -1,0 +1,189 @@
+.home {
+  
+}
+
+.flex {
+  display: flex;
+}
+
+.home_wrapper-left {
+  max-width: 253px;
+  width: 100%;
+  background-color: #2F49D1;
+  height: auto;
+  padding-top: 20px;
+}
+
+
+
+.crm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.crm_span {
+  color: #FFF;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: inter;
+  font-size: 20.629px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.224px;
+  /* 141.667% */
+  letter-spacing: 0.86px;
+  margin-right: 32px;
+}
+
+
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  font-family: "inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  color: #FFF;
+    padding-top: 10px;
+      padding-bottom: 5px;
+  font-feature-settings: 'clig' off, 'liga' off;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  &::before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  
+    background-image: url("../../images/Home.svg");
+    margin-right: 16px;
+    margin-left: 20px;
+    content: "";
+  }
+  &:hover {
+    background-color: #01265F;
+    margin-left: 0;  
+    
+  }
+ 
+  &:hover::after {
+    display: inline-block;
+    width: 3px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: 1px;
+    content: "";
+
+  }
+}
+
+.list li:nth-child(2)::before {
+      background-image: url("../../images/oqtuvchilar.svg");
+      
+    
+}
+
+.list li:nth-child(3)::before {
+ width: 22px;
+      background-image: url("../../images/gruh.svg");
+    
+    
+}
+
+.list li:nth-child(4)::before {
+    background-image: url("../../images/oquvchilar-icon.svg");
+}
+
+.list li:nth-child(5)::before {
+  width: 21px;
+  height: 21px;
+    background-image: url("../../images/fanlar-icon.svg");
+}
+
+
+
+
+.report_title {
+  color: #0061F7;
+ padding-left: 32px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    background: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.report_list {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  gap: 32px;
+  padding: 32px;
+}
+
+.report_item {
+  position: relative;
+  width: 545px;
+    height: 228px;
+  border-radius: 20px;
+    background: #FFF;
+  padding: 20px;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.15);
+    &::after {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      width: 100px;
+      height: 100px;
+      background-image: url("../../images/balns-icon.svg");
+      content: "";
+    }
+}
+
+.report_text {
+  color: #000;
+  
+    font-feature-settings: 'clig' off, 'liga' off;
+  
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.report_list span {
+  color: #000;
+  
+    font-feature-settings: 'clig' off, 'liga' off;
+ 
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
